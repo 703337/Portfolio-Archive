@@ -1,0 +1,80 @@
+/* Default styling for the <body> */
+body {
+	background-color: black;
+	color: white;
+	
+}
+
+/* Default styling for links */
+a {
+	color: cyan;
+}
+
+/* Default styling for horizontal rules */
+hr {
+	background-color: white;
+	border-width: 0;
+	color: white;
+	height: 2px;
+}
+
+/* Centre styling for <div> */
+div.Centre {
+	background-color: rgb(58,58,255);
+	border: 2px solid black;
+	margin: auto;
+	padding: 10px;
+	width: 50%;
+}
+
+/* Centre styling for important message <div> */
+div.CentreAlert {
+	background-color: rgb(190, 32, 32);
+	border: 2px solid black;
+    color: rgb(240, 236, 5);
+	margin: auto;
+	padding: 10px;
+	width: 50%;
+}
+
+/* Centre styling for Halloween <div> */
+div.CentreHallow {
+	background-color: rgb(206, 120, 8);
+	border: 2px solid black;
+    color: rgb(68, 0, 100);
+	margin: auto;
+	padding: 10px;
+	width: 50%;
+}
+div.CentreHallow a {
+	color: rgb(167, 0, 182);
+}
+
+/* Centre styling for Halloween <div> */
+div.CentreChrist {
+	background-color: rgb(0, 145, 7);
+	border: 2px solid black;
+	margin: auto;
+	padding: 10px;
+	width: 50%;
+}
+
+/* Misc style classes for any element - mostly used to reduce inline CSS */
+.DisplayInlineB {
+    display: inline-block;
+}
+.NoSpaceTop {
+    margin-top: 0;
+}
+.NoSpaceBottom {
+	margin-bottom: 0;
+}
+.NoPadTop {
+    padding-top: 0; 
+}
+.NoPadBottom {
+    padding-bottom: 0; 
+}
+.TextCentre {
+    text-align: center;
+}

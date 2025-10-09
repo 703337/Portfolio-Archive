@@ -2,50 +2,24 @@
 <html lang="en">
 <head>
 	<title>SuBun7's Portfolio Archive</title>
-	<style>
-		/* Default styling for the <body> */
-		body {
-			background-color: black;
-			color: white;
-			
-		}
-
-		/* Default styling for links */
-		a {
-			color: cyan;
-		}
-
-		/* Default styling for horizontal rules */
-		hr {
-			background-color: white;
-			border-width: 0;
-			color: white;
-			height: 2px;
-		}
-
-		/* Centre styling for <div> */
-		div.Centre {
-			background-color: rgb(58,58,255);
-			border: 2px solid black;
-			margin: auto;
-			padding: 10px;
-			width: 50%;
-		}
-	</style>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<!-- Page title and brief information. -->
 	<header>
-		<div class="Centre" style="text-align: center; border-bottom: none; margin-bottom: 0;">
+		<div class="CentreHallow TextCentre NoSpaceBottom" style="border-bottom: none;">
 			<h1>SuBun7's Portfolio Archive</h1>
-		<p>From top to bottom, images are listed newest to oldest.</p>
+			<p>From top to bottom, images are listed newest to oldest.</p>
 		</div>
 	</header>
+	<!-- Main Content -->
 	<main>
-		<!-- Art from 2025 -->
+		<!-- Art from 2025. -->
 		<article id="Art2025">
-			<div class="Centre" style="margin-top: 0;">
-				<h3 style="text-align: center;">2025</h3>
-				<div style="text-align: center;">
+			<div class="CentreHallow NoSpaceTop">
+				<!-- 2025 -->
+				<h3 class="TextCentre">2025</h3>
+				<div class="TextCentre">
 					<!-- October -->
 					<p style="margin-bottom: 5px;">October:</p>
 					<a href="Grin and Bear It/information.html">Grin and Bear It</a><br>
@@ -59,10 +33,11 @@
 				</div>
 			</div>
 		</article>
+		<!-- Copyright information for the site. -->
 		<article id="CopyrightInfo">
-			<div class="Centre" style="border-top: none; margin-top: 0;">
-				<h3 style="text-align: center;">&copy; Susan Benfell-Aitken 2025</h3>
-				<p style="text-align: center;">This site contains only original art, but individual artworks may contain non-original source images.</p>
+			<div class="CentreHallow NoSpaceTop TextCentre" style="border-top: none;">
+				<h3>&copy; Susan Benfell-Aitken 2025</h3>
+				<p>This site contains only original art, but individual artworks may contain non-original source images.</p>
 			</div>
 		</article>
 	</main>
