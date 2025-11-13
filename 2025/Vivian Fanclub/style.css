@@ -1,0 +1,46 @@
+/* Default styling for the <body> */
+body {
+	background-color: rgb(153, 112, 0);
+	color: rgb(80, 255, 139);
+}
+
+/* Default styling for links */
+a {
+	color: rgb(0, 204, 255);
+}
+
+/* Default styling for horizontal rules */
+hr {
+	background-color: rgb(168, 90, 0);
+	border-width: 0;
+	color: rgb(168, 90, 0);
+	height: 2px;
+}
+
+/* Centre styling for <div> */
+div.Centre {
+	border: 2px solid rgb(168, 90, 0);
+	margin: auto;
+	padding: 10px;
+	width: 50%;
+}
+
+/* Misc style classes for any element - mostly used to reduce inline CSS */
+.DisplayInlineB {
+    display: inline-block;
+}
+.NoSpaceTop {
+    margin-top: 0;
+}
+.NoSpaceBottom {
+	margin-bottom: 0;
+}
+.NoPadTop {
+    padding-top: 0; 
+}
+.NoPadBottom {
+    padding-bottom: 0; 
+}
+.TextCentre {
+    text-align: center;
+}
