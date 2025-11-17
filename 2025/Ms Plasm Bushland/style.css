@@ -1,0 +1,52 @@
+/* Default styling for the <body> */
+body {
+	background-color: #55016E;
+	color: #55c571;
+}
+
+/* Default styling for links */
+a {
+	color: #55c571;
+}
+
+/* Default styling for horizontal rules */
+hr {
+	background-color: rgb(255, 0, 220);
+	border-width: 0;
+	color: rgb(255, 0, 220);
+	height: 2px;
+}
+
+/* Centre styling for <div> */
+div.Centre {
+	border: 2px solid rgb(255, 0, 220);
+	margin: auto;
+	padding: 10px;
+	width: 50%;
+}
+
+/* MissinTex style class for any text element */
+.MissingTex {
+	color: #ff59e9;
+	-webkit-text-stroke: 2px rgba(255, 0, 220, 0.35);
+}
+
+/* Misc style classes for any element - mostly used to reduce inline CSS */
+.DisplayInlineB {
+    display: inline-block;
+}
+.NoSpaceTop {
+    margin-top: 0;
+}
+.NoSpaceBottom {
+	margin-bottom: 0;
+}
+.NoPadTop {
+    padding-top: 0; 
+}
+.NoPadBottom {
+    padding-bottom: 0; 
+}
+.TextCentre {
+    text-align: center;
+}
